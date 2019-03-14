@@ -1,0 +1,353 @@
+message-version,1.0.0
+message,DOI,10.1371/journal.pone.0210529
+message,language,en
+message,page,e0210529
+message,volume,14
+message,publisher,Public Library of Science (PLoS)
+message,prefix,10.1371
+message,member,340
+G,e,n,e,r,a,l, ,B,i,o,c,h,e,m,i,s,t,r,y,",", ,G,e,n,e,t,i,c,s, ,a,n,d, ,M,o,l,e,c,u,l,a,r, ,B,i,o,l,o,g,y
+G,e,n,e,r,a,l, ,A,g,r,i,c,u,l,t,u,r,a,l, ,a,n,d, ,B,i,o,l,o,g,i,c,a,l, ,S,c,i,e,n,c,e,s
+G,e,n,e,r,a,l, ,M,e,d,i,c,i,n,e
+created,message,date-time,2019-01-15T18:29:32Z
+created,message,timestamp,1547576972000
+2019,1,15
+message,reference-count,33
+P,L,o,S, ,O,N,E
+reference,message,unstructured,"Alexandratos, N and Bruinsma, J. World agriculture towards 2030/2050: the 2012 revision. ESA Working paper No. 12–03. Rome: FAO; 2012."
+reference,message,key,ref1
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1098/rstb.2007.2170
+reference,message,article-title,Marker-assisted selection: an approach for plant breeding in the twenty-first century
+reference,message,first-page,557
+reference,message,volume,363
+reference,message,year,2008
+reference,message,journal-title,Phil Trans R Soc Lond B Biol Sci
+reference,message,author,BCY Collard
+reference,message,key,ref2
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s001220051342
+reference,message,article-title,Mapping and genome organization of microsatellite sequences in rice (<italic>Oryza sativa</italic> L.)
+reference,message,first-page,697
+reference,message,volume,100
+reference,message,year,2000
+reference,message,journal-title,Theor Appl Genet
+reference,message,author,S Temnykh
+reference,message,key,ref3
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1038/nature03895
+reference,message,article-title,The map-based sequence of the rice genome
+reference,message,year,2005
+reference,message,volume,436
+reference,message,journal-title,Nature
+reference,message,key,ref4
+reference,message,first-page,793
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s00122-006-0290-6
+reference,message,article-title,Development of PCR-based allele-specific and InDel marker sets for nine rice blast resistance genes
+reference,message,first-page,251
+reference,message,volume,113
+reference,message,year,2006
+reference,message,journal-title,Theor Appl Genet
+reference,message,author,K Hayashi
+reference,message,key,ref5
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.9787/PBB.2014.2.3.195
+reference,message,article-title,High-Throughput SNP Genotyping to Accelerate Crop Improvement
+reference,message,first-page,195
+reference,message,volume,2
+reference,message,year,2014
+reference,message,journal-title,Plant Breed Biotechnol
+reference,message,author,MJ Thomson
+reference,message,key,ref6
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1111/j.1467-7652.2005.00131.x
+reference,message,article-title,The gene for fragrance in rice
+reference,message,first-page,363
+reference,message,volume,3
+reference,message,year,2005
+reference,message,journal-title,Plant Biotech J
+reference,message,author,LMT Bradbury
+reference,message,key,ref7
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1038/cr.2008.307
+reference,message,article-title,"Isolation and initial characterization of <italic>GW5</italic>, a major QTL associated with rice grain width and weight"
+reference,message,first-page,1199
+reference,message,volume,18
+reference,message,year,2008
+reference,message,journal-title,Cell Res
+reference,message,author,J Weng
+reference,message,key,ref8
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s00122-012-1823-9
+reference,message,article-title,Fine mapping of QTLs for rice grain yield under drought reveals sub-QTLs conferring a response to variable drought severities
+reference,message,first-page,155
+reference,message,volume,125
+reference,message,year,2012
+reference,message,journal-title,Theor Appl Genet
+reference,message,author,S Dixit
+reference,message,key,ref9
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s13562-011-0080-3
+reference,message,article-title,Fine mapping of grain length QTLs on chromosomes 1 and 7 in Basmati rice (<italic>Oryza sativa</italic> L.)
+reference,message,first-page,157
+reference,message,volume,21
+reference,message,year,2012
+reference,message,journal-title,J Plant Biochem Biotechnol
+reference,message,author,R Singh
+reference,message,key,ref10
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1016/j.fcr.2012.02.028
+reference,message,article-title,Identification and mapping of a QTL (qDTY1.1) with a consistent effect on grain yield under drought
+reference,message,first-page,88
+reference,message,volume,131
+reference,message,year,2012
+reference,message,journal-title,Field Crops Res
+reference,message,author,KH Ghimire
+reference,message,key,ref11
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1371/journal.pone.0062795
+reference,message,article-title,"Genetic, Physiological, and Gene Expression Analyses Reveal That Multiple QTL Enhance Yield of Rice Mega-Variety IR64 under Drought"
+reference,message,first-page,e62795
+reference,message,volume,8
+reference,message,year,2013
+reference,message,journal-title,PLoS ONE
+reference,message,author,BPM Swamy
+reference,message,key,ref12
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1016/j.fcr.2013.01.019
+reference,message,article-title,A QTL for high grain yield under lowland drought in the background of popular rice variety Sabitri from Nepal
+reference,message,first-page,281
+reference,message,volume,144
+reference,message,year,2013
+reference,message,journal-title,Field Crops Res
+reference,message,author,RB Yadaw
+reference,message,key,ref13
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s11032-016-0520-9
+reference,message,article-title,Identification and pyramiding of QTLs for cold tolerance at the bud bursting and the seedling stages by use of single segment substitution lines in rice (<italic>Oryza sativa</italic> L.)
+reference,message,first-page,96
+reference,message,volume,36
+reference,message,year,2016
+reference,message,journal-title,Mol Breed
+reference,message,author,T Yang
+reference,message,key,ref14
+reference,message,article-title,Assessment of rice genotypes for salt tolerance using microsatellite markers associated with the <italic>Saltol</italic> QTL
+reference,message,first-page,730
+reference,message,volume,7
+reference,message,year,2008
+reference,message,journal-title,Afr J Biotechnol
+reference,message,author,G Mohammadi-Nejad
+reference,message,key,ref15
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.5423/PPJ.OA.06.2014.0054
+reference,message,article-title,Molecular Screening of Blast Resistance Genes in Rice using SSR Markers
+reference,message,first-page,12
+reference,message,volume,31
+reference,message,year,2015
+reference,message,journal-title,Plant Pathol J
+reference,message,author,AK Singh
+reference,message,key,ref16
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1371/journal.pone.0119873
+reference,message,article-title,Genome-Wide Association Mapping for Yield and Other Agronomic Traits in an Elite Breeding Population of Tropical Rice (<italic>Oryza sativa</italic>)
+reference,message,first-page,e0119873
+reference,message,volume,10
+reference,message,year,2015
+reference,message,journal-title,PLoS ONE
+reference,message,author,H Begum
+reference,message,key,ref17
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s00122-013-2166-x
+reference,message,article-title,Bridging the genotyping gap: using genotyping by sequencing (GBS) to add high-density SNP markers and new value to traditional bi-parental mapping and breeding populations
+reference,message,first-page,2699
+reference,message,volume,126
+reference,message,year,2013
+reference,message,journal-title,Theor Appl Genet
+reference,message,author,J Spindel
+reference,message,key,ref18
+reference,message,article-title,Integrating marker-assisted selection in crop breeding—Prospects and challenges
+reference,message,first-page,607
+reference,message,volume,87
+reference,message,year,2004
+reference,message,journal-title,Current Sci
+reference,message,author,R Babu
+reference,message,key,ref19
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1007/s00122-012-2032-2
+reference,message,article-title,Genomewide markers as cofactors for precision mapping of quantitative trait loci
+reference,message,first-page,999
+reference,message,volume,126
+reference,message,year,2013
+reference,message,journal-title,Theor Appl Genet
+reference,message,author,R Bernardo
+reference,message,key,ref20
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.3390/ijms141122499
+reference,message,article-title,A Review of Microsatellite Markers and Their Applications in Rice Breeding Programs to Improve Blast Disease Resistance
+reference,message,first-page,22499
+reference,message,volume,14
+reference,message,year,2013
+reference,message,journal-title,Int J Mol Sci
+reference,message,author,G Miah
+reference,message,key,ref21
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1071/FP09247
+reference,message,article-title,Dynamic quantitative trait loci for salt stress components on chromosome 1 of rice
+reference,message,first-page,634
+reference,message,volume,37
+reference,message,year,2010
+reference,message,journal-title,Funct Plant Biol
+reference,message,author,T Ul Haq
+reference,message,key,ref22
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1186/1471-2229-13-32
+reference,message,article-title,"Salinity tolerance, Na<sup>+</sup> exclusion and allele mining of <italic>HKT1;5</italic> in <italic>Oryza sativa</italic> and <italic>O</italic>. <italic>glaberrima</italic>: many sources, many genes, one mechanism?"
+reference,message,first-page,32
+reference,message,volume,13
+reference,message,year,2013
+reference,message,journal-title,BMC Plant Biol
+reference,message,author,J Platten
+reference,message,key,ref23
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1093/bjaceaccp/mkn041
+reference,message,article-title,Clinical tests: sensitivity and specificity
+reference,message,first-page,221
+reference,message,volume,8
+reference,message,year,2008
+reference,message,journal-title,"Continuing Education in Anaesthesia, Critical Care and Pain"
+reference,message,author,AG Lalkhen
+reference,message,key,ref24
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1073/pnas.0900992106
+reference,message,article-title,Genomewide SNP variation reveals relationships among landraces and modern varieties of rice
+reference,message,first-page,12273
+reference,message,volume,106
+reference,message,year,2009
+reference,message,journal-title,Proc Natl Acad Sci USA
+reference,message,author,KL McNally
+reference,message,key,ref25
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1186/2047-217X-3-7
+reference,message,article-title,"The 3,000 rice genomes project"
+reference,message,year,2014
+reference,message,volume,3
+reference,message,journal-title,GigaScience
+reference,message,key,ref26
+reference,message,first-page,7
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1093/bioinformatics/btp352
+reference,message,article-title,The Sequence alignment/map (SAM) format and SAMtools
+reference,message,first-page,2078
+reference,message,volume,25
+reference,message,year,2009
+reference,message,journal-title,Bioinformatics
+reference,message,author,H Li
+reference,message,key,ref27
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1093/bioinformatics/btp324
+reference,message,article-title,Fast and accurate short read alignment with Burrows-Wheeler Transform
+reference,message,first-page,1754
+reference,message,volume,25
+reference,message,year,2009
+reference,message,journal-title,Bioinformatics
+reference,message,author,H Li
+reference,message,key,ref28
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1038/ng1643
+reference,message,article-title,A rice quantitative trait locus for salt tolerance encodes a sodium transporter
+reference,message,first-page,1141
+reference,message,volume,37
+reference,message,year,2005
+reference,message,journal-title,Nat Genet
+reference,message,author,Z-H Ren
+reference,message,key,ref29
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1186/s12284-016-0091-8
+reference,message,article-title,Allele-specific marker-based assessment revealed that the rice blast resistance genes <italic>Pi2</italic> and <italic>Pi9</italic> have not been widely deployed in Chinese <italic>indica</italic> rice cultivars
+reference,message,first-page,19
+reference,message,volume,9
+reference,message,year,2016
+reference,message,journal-title,Rice
+reference,message,author,D Tian
+reference,message,key,ref30
+reference,message,article-title,Identification of Major Blast Resistance Genes in Korean Rice Varieties (<italic>Oryza sativa</italic> L.) Using Molecular Markers
+reference,message,first-page,265
+reference,message,volume,10
+reference,message,year,2007
+reference,message,journal-title,J Crop Sci Biotechnol
+reference,message,author,Y-C Cho
+reference,message,key,ref31
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1094/PHYTO-02-16-0091-R
+reference,message,article-title,Identification of a <italic>Pi9</italic>-Containing Rice Germplasm with a Newly Developed Robust Marker
+reference,message,first-page,871
+reference,message,volume,106
+reference,message,year,2016
+reference,message,journal-title,Phytopathology
+reference,message,author,KK Sheuermann
+reference,message,key,ref32
+reference,message,doi-asserted-by,crossref
+reference,message,DOI,10.1038/ncomms1132
+reference,message,article-title,New approach for rice improvement using a pleiotropic QTL gene for lodging resistance and yield
+reference,message,first-page,132
+reference,message,volume,1
+reference,message,year,2010
+reference,message,journal-title,Nat Commun
+reference,message,author,T Ookawa
+reference,message,key,ref33
+editor,message,given,Aimin
+editor,message,sequence,first
+editor,message,family,Zhang
+deposited,message,date-time,2019-01-15T18:30:37Z
+deposited,message,timestamp,1547577037000
+2019,1,15
+issn-type,message,type,electronic
+issn-type,message,value,1932-6203
+link,message,content-version,vor
+link,message,intended-application,similarity-checking
+link,message,content-type,unspecified
+link,message,URL,http://dx.plos.org/10.1371/journal.pone.0210529
+message,URL,http://dx.doi.org/10.1371/journal.pone.0210529
+message,update-policy,http://dx.doi.org/10.1371/journal.pone.corrections_policy
+message,issue,1
+C,r,i,t,e,r,i,a, ,f,o,r, ,e,v,a,l,u,a,t,i,n,g, ,m,o,l,e,c,u,l,a,r, ,m,a,r,k,e,r,s,:, ,C,o,m,p,r,e,h,e,n,s,i,v,e, ,q,u,a,l,i,t,y, ,m,e,t,r,i,c,s, ,t,o, ,i,m,p,r,o,v,e, ,m,a,r,k,e,r,-,a,s,s,i,s,t,e,d, ,s,e,l,e,c,t,i,o,n
+content-domain,message,crossmark-restriction,False
+w,w,w,.,p,l,o,s,o,n,e,.,o,r,g
+P,L,O,S, ,O,N,E
+message,type,journal-article
+message,references-count,33
+indexed,message,date-time,2019-01-15T19:12:10Z
+indexed,message,timestamp,1547579530099
+2019,1,15
+author,message,given,John Damien
+author,message,ORCID,http://orcid.org/0000-0001-6137-5955
+author,message,authenticated-orcid,True
+author,message,family,Platten
+author,message,sequence,first
+author,message,given,Joshua Nathaniel
+author,message,sequence,additional
+author,message,family,Cobb
+author,message,given,Rochelle E.
+author,message,sequence,additional
+author,message,family,Zantua
+1,9,3,2,-,6,2,0,3
+message,score,1.0
+license,message,delay-in-days,0
+start,license,message,date-time,2019-01-15T00:00:00Z
+start,license,message,timestamp,1547510400000
+2019,1,15
+license,message,content-version,vor
+license,message,URL,http://creativecommons.org/licenses/by/4.0/
+2019,1,15
+message,is-referenced-by-count,0
+2019,1,15
+funder,message,doi-asserted-by,publisher
+funder,message,DOI,10.13039/100000865
+funder,message,name,Bill and Melinda Gates Foundation
+O,P,P,1,0,7,6,4,8,8
+message,source,Crossref
+2019,1,15
+journal-issue,message,issue,1
+status,ok
+message-type,work
