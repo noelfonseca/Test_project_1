@@ -5,10 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 works = Works()
 enter_doi = input('Enter doi: ')
-
 json_file = works.doi(enter_doi)
-# pprint.pprint(json_file.keys())
-# pprint.pprint(json_file)
 
 bibkeys = ['haha','author', 'title', 'short-container-title', 'volume', 'issue', 'published-print','type', 'page', 'DOI', 'subject']
 
@@ -27,12 +24,12 @@ for bib in bibkeys:
 	if bib not in json_file.keys():
 		continue
 	if bib == 'author':
-		for auth_initials in json_file[bib]:			
+		for auth_initials in json_file[bib]:
 			if 'given' not in auth_initials.keys():
 				Authors.append(auth_initials['family'])
 				continue
 			else:
-				family_and_initial = auth_initials['family']+ ', ' + auth_initials['given'][0] + '.'
+				family_and_initial = auth_initials['given'].split()[0][0] + '.' + auth_initials['given'].split()[0][0] + '. ' + auth_initials['family']
 				Authors.append(family_and_initial)
 		continue
 	if bib == 'title':
@@ -76,6 +73,7 @@ print(D_O_I)
 print('=====================================')
 
 BIBLIOGRAPHY = [Authors, Title, Publisher, Volume, Issue_no, Year, Type, Page, D_O_I]
+
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 credentials = ServiceAccountCredentials.from_json_keyfile_name('SpreadsheetExample-b020928dcb91.json', scope)
 gc = gspread.authorize(credentials)
@@ -85,9 +83,9 @@ wks = gc.open_by_key('1f4qx_5JVGSdsSjfwdQM9s1NoX8saqe2w19v2nWp5faA').sheet1
 new_list = ', '.join(map(str, BIBLIOGRAPHY))
 print(new_list)
 
-
+Authors.insert(-1, 'and')
+Authors[-2:] = [' '.join(Authors[-2:])]
 Authors = ', '.join(Authors)
-print(type(Authors))
 print(Authors)
 
 wks.update_acell('A1', Authors)
@@ -97,5 +95,6 @@ for item in BIBLIOGRAPHY:
 		item.append('')
 
 new_bibliography = Title + Publisher + Volume + Issue_no + Year + Type + Page + D_O_I
+
 
 wks.append_row(new_bibliography)
