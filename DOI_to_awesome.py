@@ -17,20 +17,22 @@ enter_doi = input('Enter doi: ')
 #enter_doi = '10.3390/genes10010030'
 #enter_doi = 'http://dx.doi.org/10.20944/preprints201808.0493.v1' #NO CROSSREF
 #enter_doi = '10.1111/dpr.12387'
+#enter_doi = '10.1007/978-981-10-7461-5_17' #this is a book
 
 json_file = works.doi(enter_doi)
 
-bibkeys = ['author', 'title', 'short-container-title', 'volume', 'issue', 'published-print','type', 'page', 'DOI', 'subject', 'indexed']
+bibkeys = ['author', 'title', 'short-container-title', 'volume', 'issue', 'published-print','type', 'page', 'DOI', 'subject', 'published-online']
+
+# to add in bibkeys for books: 'container-title', 
 
 last_name_list = []
 given_name_list = []
-#family_name_only_list = []
-
 Volume = ''
 Issue_no = ''
 Subject = ''
 Page = ''
 Year = ''
+Publisher = ''
 
 
 for bib in bibkeys:
@@ -56,7 +58,12 @@ for bib in bibkeys:
 	elif bib == 'title':
 		Title = json_file[bib][0]
 	elif bib == 'short-container-title':
-		Publisher = json_file[bib][0]
+		if bib not in bibkeys:
+			continue
+		elif json_file[bib] == []:
+			continue
+		else:
+			Publisher = json_file[bib][0] + ', '	
 	elif bib == 'volume':
 		if bib not in bibkeys:
 			continue
@@ -73,7 +80,7 @@ for bib in bibkeys:
 			continue
 		else:
 			Year = str(json_file[bib]['date-parts'][0][0])
-	elif bib == 'indexed':
+	elif bib == 'published-online':
 		if bib not in bibkeys:
 			Year = ''
 			continue
@@ -81,6 +88,14 @@ for bib in bibkeys:
 			Year = str(json_file[bib]['date-parts'][0][0])
 	elif bib == 'type':
 		Type = json_file[bib]
+		if json_file[bib] == 'journal-article':
+			json_file[bib] = 'Journal'
+			Type = json_file[bib]
+		elif json_file[bib] == 'book-chapter':
+			json_file[bib] = 'Book'
+			Type = json_file[bib]
+		else:
+			Type = json_file[bib]
 	elif bib == 'page':
 		if bib not in bibkeys:
 			Page = ''
@@ -95,7 +110,10 @@ for bib in bibkeys:
 if 'given' not in auth_initials.keys():
 	Authors.append(family_name_only)
 
-Source = Publisher + ', ' + Volume + ' ' + Issue_no + Page
+Source = Publisher + Volume + ' ' + Issue_no + Page
+
+print(type(json_file['type']))
+print(json_file['short-container-title'])
 print(Authors)
 print(len(Authors))
 if len(Authors) > 1:
@@ -130,9 +148,6 @@ for affiliation in json_file['author']:
 			pprint.pprint(s['name'])
 	#pprint.pprint(affiliation['affiliation'])
 
-
-
-
 for item in BIBLIOGRAPHY:
 	if item == Year:
 		wks.update_acell('A1', Year)
@@ -150,4 +165,3 @@ for item in BIBLIOGRAPHY:
 		wks.update_acell('L1', Publisher)
 
 #wks.insert_row('1', 'hello!', index=2)
-
